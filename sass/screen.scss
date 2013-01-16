@@ -461,7 +461,6 @@ height:62px
 
 @media only screen and (max-width: 895px) {
 	header {
-	  background-color: #3299bb;
 	  min-height: 100px;
 	  padding: (4 * $standard_margin) 0 (4 * $standard_margin) 0;
 	}
@@ -494,5 +493,21 @@ p{
 @media only screen and (max-width: 550px) {
 	.where-when, .map, .talks-info, .speakers, .ticket-emporium{
 		width: 100%
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	header {
+	  min-height: 80px;
+	  padding: (4 * $standard_margin) 0 (4 * $standard_margin) 0;
+	}
+
+	h1{
+	@include font-size(5.2);
+	line-height: 52px;
+	}
+
+	h1 span {
+		@include font-size(8);
 	}
 }
