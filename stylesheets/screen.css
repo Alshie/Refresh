@@ -389,7 +389,7 @@ footer {
   padding: 6px 15px;
   font-size: 18px;
   font-size: 1.8rem;
-  width: 100%;
+  width: 90%;
   outline: none; }
 .email-form input.text:focus {
   border-color: #ed8600; }
@@ -432,3 +432,36 @@ footer {
 .lt-ie8 .button {
   display: inline;
   height: 62px; }
+
+@media only screen and (max-width: 895px) {
+  header {
+    background-color: #3299bb;
+    min-height: 100px;
+    padding: 4em 0 4em 0; }
+
+  h1 {
+    font-size: 72px;
+    font-size: 7.2rem;
+    line-height: 72px; }
+
+  h1 span {
+    font-size: 90px;
+    font-size: 9rem; }
+
+  h2 {
+    color: #fff;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 30px;
+    font-size: 3rem;
+    text-align: center; }
+
+  p {
+    color: #3d3d3d;
+    color: rgba(61, 61, 61, 0.9);
+    font-size: 18px;
+    font-size: 1.8rem;
+    margin-bottom: 1em;
+    text-align: left; } }
+@media only screen and (max-width: 550px) {
+  .where-when, .map, .talks-info, .speakers, .ticket-emporium {
+    width: 100%; } }

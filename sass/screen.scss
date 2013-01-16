@@ -407,7 +407,7 @@ footer{
 		border: solid 1px #fff;
 		padding: 6px 15px;
 		@include font-size(1.8);
-		width: 100%;
+		width: 90%;
 		outline: none;
 	}
 	input.text:focus{
@@ -456,4 +456,43 @@ cursor: pointer;
 .lt-ie8 .button {
 display:inline;
 height:62px
+}
+
+
+@media only screen and (max-width: 895px) {
+	header {
+	  background-color: #3299bb;
+	  min-height: 100px;
+	  padding: (4 * $standard_margin) 0 (4 * $standard_margin) 0;
+	}
+
+	h1{
+	@include font-size(7.2);
+	line-height: 72px;
+	}
+
+	h1 span {
+		@include font-size(9);
+	}
+
+	h2{
+	color: #fff;
+	color: rgba(255,255,255,0.9);
+	@include font-size(3);
+	text-align: center;
+}
+
+p{
+	color: #3d3d3d;
+	color: rgba(#3d3d3d, 0.9);
+	@include font-size(1.8);
+	margin-bottom: $standard_margin;
+	text-align: left;
+}
+}
+
+@media only screen and (max-width: 550px) {
+	.where-when, .map, .talks-info, .speakers, .ticket-emporium{
+		width: 100%
+	}
 }
