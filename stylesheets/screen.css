@@ -464,10 +464,10 @@ footer {
 @media only screen and (max-width: 550px) {
   .where-when, .map, .talks-info, .speakers, .ticket-emporium {
     width: 100%; } }
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 470px) {
   header {
     min-height: 80px;
-    padding: 4em 0 4em 0; }
+    padding: 2em 0 2em 0; }
 
   h1 {
     font-size: 52px;
