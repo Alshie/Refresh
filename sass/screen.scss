@@ -498,16 +498,16 @@ p{
 
 @media only screen and (max-width: 470px) {
 	header {
-	  min-height: 80px;
+	  min-height: 40px;
 	  padding: (2 * $standard_margin) 0 (2 * $standard_margin) 0;
-	}
 
-	h1{
-	@include font-size(5.2);
-	line-height: 52px;
-	}
+		h1{
+			@include font-size(4.2);
+			line-height: 42px;
+		}
 
-	h1 span {
-		@include font-size(8);
+		h1 span {
+			@include font-size(6.5);
+		}
 	}
 }
