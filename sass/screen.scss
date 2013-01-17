@@ -254,7 +254,7 @@ header {
 
 h1{
 	// @include span-columns(12,12);
-	color: #ffffff;
+	color: rgb(255,255,255);
 	color: rgba(255, 255, 255, 0.9);
 	@include font-size(14.4);
 	line-height: 144px;
@@ -272,14 +272,14 @@ h1 span {
 }
 
 h2{
-	color: #fff;
+	color: rgb(255,255,255);
 	color: rgba(255,255,255,0.9);
 	@include font-size(5);
 	text-align: center;
 }
 
 p{
-	color: #3d3d3d;
+	color: rgb(61,61,61);
 	color: rgba(#3d3d3d, 0.9);
 	@include font-size(2.4);
 	margin-bottom: $standard_margin;
@@ -295,7 +295,7 @@ p{
 	@include span-columns(12,12);
 
 	p{
-		color: #dbdcdd;
+		color: rgb(220, 220, 220);
 		color: rgba(220,220,220, 0.9);
 		text-align: center;
 	}
@@ -322,7 +322,7 @@ p{
 	}
 
 	p{
-		color: #3d3d3d;
+		color: rgb(61,61,61);
 		color: rgba(#3d3d3d, 0.9);
 		@include font-size(1.8);
 		text-align: left;
@@ -362,7 +362,7 @@ p{
 	}
 
 	p{
-		color: #F9F8F3;
+		color: rgb(249, 248, 243);
 		color: rgba(#F9F8F3, 0.9);
 		@include font-size(1.8);
 		text-align: left;
