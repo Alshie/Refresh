@@ -453,11 +453,56 @@ cursor: pointer;
 	top: 1px;
 }
 
-.lt-ie8 .button {
-display:inline;
-height:62px
+.lt-ie8 {
+
+	.button {
+		display:inline;
+		height:62px
+	}
+
+	h1, h1 span, h2{
+		color: #fff;
+	}
+
+	p{
+	color: rgb(61,61,61);
 }
 
+.what-is-refresh {
+	p{
+		color: rgb(220, 220, 220);
+	}
+}
+
+.where-is-refresh {
+	h2{
+		color: #D10A0A;
+	}
+
+	h3{
+		color: #D10A0A;
+	}
+
+	p{
+		color: rgb(61,61,61);
+	}
+}
+
+.refresh-talks{
+	h2{
+		color: #FFCB87;
+	}
+
+	h3{
+		color: #FFCB87;
+	}
+
+	p{
+		color: rgb(249, 248, 243);
+	}
+}
+
+}
 
 @media only screen and (max-width: 895px) {
 	header {

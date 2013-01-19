@@ -188,6 +188,15 @@ footer { padding: 2em 0 4em 0; }
 .button a:active, button:active { background-color: #d97b00; top: 1px; }
 
 .lt-ie8 .button { display: inline; height: 62px; }
+.lt-ie8 h1, .lt-ie8 h1 span, .lt-ie8 h2 { color: #fff; }
+.lt-ie8 p { color: #3d3d3d; }
+.lt-ie8 .what-is-refresh p { color: gainsboro; }
+.lt-ie8 .where-is-refresh h2 { color: #D10A0A; }
+.lt-ie8 .where-is-refresh h3 { color: #D10A0A; }
+.lt-ie8 .where-is-refresh p { color: #3d3d3d; }
+.lt-ie8 .refresh-talks h2 { color: #FFCB87; }
+.lt-ie8 .refresh-talks h3 { color: #FFCB87; }
+.lt-ie8 .refresh-talks p { color: #f9f8f3; }
 
 @media only screen and (max-width: 895px) { header { min-height: 100px; padding: 4em 0 4em 0; }
   h1 { font-size: 72px; font-size: 7.2rem; line-height: 72px; }
