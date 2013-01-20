@@ -94,6 +94,14 @@ a img { border: none; }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary { display: block; }
 
+.sponsors-sprite, .sponsors-campaignmonitor, .sponsors-itison, .sponsors-sloans, a.campaign-monitor, a.sloans, a.itison { background: url('/img/sponsors-s4c89459313.png') no-repeat; }
+
+.sponsors-campaignmonitor { background-position: 0 -133px; }
+
+.sponsors-itison { background-position: 0 -266px; }
+
+.sponsors-sloans { background-position: 0 0; }
+
 img { max-width: 100%; vertical-align: middle; }
 
 .alt { font-family: "Warnock Pro", "Goudy Old Style","Palatino","Book Antiqua", Georgia, serif; font-style: italic; font-weight: normal; }
@@ -166,6 +174,15 @@ p { color: #3d3d3d; color: rgba(61, 61, 61, 0.9); font-size: 24px; font-size: 2.
 .refresh-talks a { color: #ed8600; }
 
 .lovely-sponsors { width: 100%; float: left; margin-right: 1.69492%; display: inline; padding-top: 1em; }
+
+.sponsors-logos { padding-top: 1em; text-align: center; }
+.sponsors-logos a { border: none; display: inline-block; height: 133px; text-indent: -99999px; width: 305px; display: -moz-inline-stack; display: inline-block; vertical-align: top; zoom: 1; *display: inline; }
+
+a.campaign-monitor { background-position: 0 -133px; }
+
+a.sloans { background-position: 0 0; }
+
+a.itison { background-position: 0 -266px; }
 
 footer { padding: 2em 0 4em 0; }
 

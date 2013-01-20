@@ -89,6 +89,12 @@ $gutter-width   : 1em;            // 1em gutters between columns
 $grid-padding   : $gutter-width;  // grid-padding equal to gutters
 $standard_margin : 1em;
 
+$tfl-spacing: 900px;
+$tfl-layout:horizontal;
+
+@import "sponsors/*.png";
+@include all-sponsors-sprites;
+
 @mixin letterpress($opacity){
     text-shadow: rgba(255, 255, 255, $opacity) 0 1px 0;
 }
@@ -377,6 +383,39 @@ p{
 		@include span-columns(12,12);
 		padding-top: $standard_margin;
 }
+
+.sponsors-logos{
+	padding-top: $standard_margin;
+	text-align: center;
+
+	a{
+		border: none;
+		display: inline-block;
+		// float: left;
+		height: sponsors-sprite-height(campaignmonitor);
+		text-indent: -99999px;
+		width: sponsors-sprite-width(campaignmonitor);
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: top;
+    zoom: 1;
+    *display: inline;
+	}
+}
+
+a.campaign-monitor{
+	@include sponsors-sprite(campaignmonitor);
+}
+
+a.sloans{
+	@include sponsors-sprite(sloans);
+}
+
+a.itison{
+	@include sponsors-sprite(itison);
+}
+
+
 
 footer{
   padding: (2 * $standard_margin) 0 (4 * $standard_margin) 0;

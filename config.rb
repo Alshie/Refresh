@@ -5,7 +5,7 @@ require '/Library/Ruby/Gems/1.8/gems/susy-1.0.1/lib/susy.rb';
 http_path = "/"
 css_dir = "stylesheets"
 sass_dir = "sass"
-images_dir = "images"
+images_dir = "img"
 javascripts_dir = "javascripts"
 fonts_dir = "fonts"
 
