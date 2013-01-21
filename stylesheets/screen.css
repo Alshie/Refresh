@@ -94,11 +94,11 @@ a img { border: none; }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary { display: block; }
 
-.sponsors-sprite, .sponsors-campaignmonitor, .sponsors-itison, .sponsors-sloans, a.campaign-monitor, a.sloans, a.itison { background: url('/img/sponsors-s4c89459313.png') no-repeat; }
+.sponsors-sprite, .sponsors-campaignmonitor, .sponsors-itison, .sponsors-sloans, a.campaign-monitor, a.sloans, a.itison { background: url('/img/sponsors-sbdcb94c1b0.png') no-repeat; }
 
-.sponsors-campaignmonitor { background-position: 0 -133px; }
+.sponsors-campaignmonitor { background-position: 0 -131px; }
 
-.sponsors-itison { background-position: 0 -266px; }
+.sponsors-itison { background-position: 0 -262px; }
 
 .sponsors-sloans { background-position: 0 0; }
 
@@ -176,13 +176,13 @@ p { color: #3d3d3d; color: rgba(61, 61, 61, 0.9); font-size: 24px; font-size: 2.
 .lovely-sponsors { width: 100%; float: left; margin-right: 1.69492%; display: inline; padding-top: 1em; }
 
 .sponsors-logos { padding-top: 1em; text-align: center; }
-.sponsors-logos a { border: none; display: inline-block; height: 133px; text-indent: -99999px; width: 305px; display: -moz-inline-stack; display: inline-block; vertical-align: top; zoom: 1; *display: inline; }
+.sponsors-logos a { border: none; display: inline-block; height: 131px; text-indent: -99999px; width: 300px; margin: 0; padding: 0; display: -moz-inline-stack; display: inline-block; vertical-align: top; zoom: 1; *display: inline; }
 
-a.campaign-monitor { background-position: 0 -133px; }
+a.campaign-monitor { background-position: 0 -131px; }
 
 a.sloans { background-position: 0 0; }
 
-a.itison { background-position: 0 -266px; }
+a.itison { background-position: 0 -262px; }
 
 footer { padding: 2em 0 4em 0; }
 

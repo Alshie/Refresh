@@ -395,6 +395,8 @@ p{
 		height: sponsors-sprite-height(campaignmonitor);
 		text-indent: -99999px;
 		width: sponsors-sprite-width(campaignmonitor);
+    margin: 0;
+    padding: 0;
     display: -moz-inline-stack;
     display: inline-block;
     vertical-align: top;
