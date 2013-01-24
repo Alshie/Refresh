@@ -224,3 +224,4 @@ footer { padding: 2em 0 4em 0; }
 @media only screen and (max-width: 470px) { header { min-height: 40px; padding: 2em 0 2em 0; }
   header h1 { font-size: 42px; font-size: 4.2rem; line-height: 42px; }
   header h1 span { font-size: 65px; font-size: 6.5rem; } }
+@media only screen and (max-width: 400px) { .button, .button a { padding: 0 25px; } }
