@@ -94,13 +94,15 @@ a img { border: none; }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary { display: block; }
 
-.sponsors-sprite, .sponsors-campaignmonitor, .sponsors-itison, .sponsors-sloans, a.campaign-monitor, a.sloans, a.itison { background: url('/img/sponsors-sbdcb94c1b0.png') no-repeat; }
+.sponsors-sprite, .sponsors-campaignmonitor, .sponsors-itison, .sponsors-sloans, .sponsors-twig-orange, a.campaign-monitor, a.sloans, a.itison, a.twig { background: url('/img/sponsors-s3cddf0a9a6.png') no-repeat; }
 
-.sponsors-campaignmonitor { background-position: 0 -131px; }
+.sponsors-campaignmonitor { background-position: 0 -262px; }
 
-.sponsors-itison { background-position: 0 -262px; }
+.sponsors-itison { background-position: 0 -393px; }
 
 .sponsors-sloans { background-position: 0 0; }
+
+.sponsors-twig-orange { background-position: 0 -131px; }
 
 img { max-width: 100%; vertical-align: middle; }
 
@@ -178,11 +180,13 @@ p { color: #3d3d3d; color: rgba(61, 61, 61, 0.9); font-size: 24px; font-size: 2.
 .sponsors-logos { padding-top: 1em; text-align: center; }
 .sponsors-logos a { border: none; display: inline-block; height: 131px; text-indent: -99999px; width: 300px; margin: 0; padding: 0; display: -moz-inline-stack; display: inline-block; vertical-align: top; zoom: 1; *display: inline; }
 
-a.campaign-monitor { background-position: 0 -131px; }
+a.campaign-monitor { background-position: 0 -262px; }
 
 a.sloans { background-position: 0 0; }
 
-a.itison { background-position: 0 -262px; }
+a.itison { background-position: 0 -393px; }
+
+a.twig { background-position: 0 -131px; height: 131px; }
 
 footer { padding: 2em 0 4em 0; }
 

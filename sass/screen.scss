@@ -395,7 +395,6 @@ p{
 	a{
 		border: none;
 		display: inline-block;
-		// float: left;
 		height: sponsors-sprite-height(campaignmonitor);
 		text-indent: -99999px;
 		width: sponsors-sprite-width(campaignmonitor);
@@ -421,6 +420,10 @@ a.itison{
 	@include sponsors-sprite(itison);
 }
 
+a.twig{
+	@include sponsors-sprite(twig-orange);
+	height: sponsors-sprite-height(twig-orange);
+}
 
 
 footer{
