@@ -425,6 +425,9 @@ a.twig{
 	height: sponsors-sprite-height(twig-orange);
 }
 
+a.arnoldclark{
+	@include sponsors-sprite(arnoldclark);
+}
 
 footer{
   padding: (2 * $standard_margin) 0 (4 * $standard_margin) 0;
