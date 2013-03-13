@@ -454,7 +454,7 @@ footer{
 	}
 
 	input.text{
-		@include border-radius(15px, 15px);
+		// @include border-radius(15px, 15px);
 		border: solid 1px #fff;
 		padding: 6px 15px;
 		@include font-size(1.8);

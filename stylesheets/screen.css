@@ -108,11 +108,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 img { max-width: 100%; vertical-align: middle; }
 
-.alt { font-family: "Warnock Pro", "Goudy Old Style","Palatino","Book Antiqua", Georgia, serif; font-style: italic; font-weight: normal; }
+.alt { font-family: "Warnock Pro", "Goudy Old Style", "Palatino", "Book Antiqua", Georgia, serif; font-style: italic; font-weight: normal; }
 
 .img-rounded { -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; }
 
-.img-polaroid { padding: 4px; background-color: #fff; border: 1px solid #ccc; border: 1px solid rgba(0, 0, 0, 0.2); -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); }
+.img-polaroid { padding: 4px; background-color: #fff; border: 1px solid #cccccc; border: 1px solid rgba(0, 0, 0, 0.2); -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); }
 
 .img-circle { -webkit-border-radius: 500px; -moz-border-radius: 500px; border-radius: 500px; }
 
@@ -122,7 +122,7 @@ img { max-width: 100%; vertical-align: middle; }
 
 ::selection { background: #f8dada; text-shadow: none; }
 
-a, a:visited { text-decoration: none; color: #D10A0A; -moz-transition: all .1s ease-in-out; -o-transition: all .1s ease-in-out; -webkit-transition: all .1s ease-in-out; -ms-transition: all .1s ease-in-out; transition: all .1s ease-in-out; }
+a, a:visited { text-decoration: none; color: #D10A0A; -moz-transition: all 0.1s ease-in-out; -o-transition: all 0.1s ease-in-out; -webkit-transition: all 0.1s ease-in-out; -ms-transition: all 0.1s ease-in-out; transition: all 0.1s ease-in-out; }
 
 a:hover { text-decoration: underline; color: #011b35; }
 
@@ -201,12 +201,12 @@ footer { padding: 2em 0 4em 0; }
 .last { float: right; margin-right: 0; #margin-left: -1em; display: inline; }
 
 .email-form label { color: #FFCB87; font-size: 25px; font-size: 2.5rem; font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif; font-style: normal; font-weight: 300; }
-.email-form input.text { -webkit-border-radius: 15px 15px; -moz-border-radius: 15px / 15px; border-radius: 15px / 15px; border: solid 1px #fff; padding: 6px 15px; font-size: 18px; font-size: 1.8rem; width: 90%; outline: none; }
+.email-form input.text { border: solid 1px white; padding: 6px 15px; font-size: 18px; font-size: 1.8rem; width: 90%; outline: none; }
 .email-form input.text:focus { border-color: #ed8600; }
 
 .button { display: inline-block; text-transform: uppercase; text-align: center; }
 
-.button a, button { background-color: #ed8600; border: 0; color: #fff; display: block; font-size: 18px; font-size: 1.8rem; line-height: 62px; height: 62px; padding: 0 1.6em; margin: 1em auto; position: relative; -moz-transition: box-shadow .25s ease-in-out; -o-transition: box-shadow .25s ease-in-out; -webkit-transition: box-shadow .25s ease-in-out; -ms-transition: box-shadow .25s ease-in-out; transition: box-shadow .25s ease-in-out; text-align: center; text-transform: uppercase; width: 100%; }
+.button a, button { background-color: #ed8600; border: 0; color: #fff; display: block; font-size: 18px; font-size: 1.8rem; line-height: 62px; height: 62px; padding: 0 1.6em; margin: 1em auto; position: relative; -moz-transition: box-shadow 0.25s ease-in-out; -o-transition: box-shadow 0.25s ease-in-out; -webkit-transition: box-shadow 0.25s ease-in-out; -ms-transition: box-shadow 0.25s ease-in-out; transition: box-shadow 0.25s ease-in-out; text-align: center; text-transform: uppercase; width: 100%; }
 
 .button a:hover, button:hover { box-shadow: 0 0 13px rgba(0, 0, 0, 0.2); text-decoration: none; cursor: pointer; }
 
