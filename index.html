@@ -20,17 +20,17 @@
 					<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
 				<![endif]-->
   </head>
-  <body>
+  <body class="vevent">
   	<header>
   		<div class="container">
-		  		<h1><span>{</span>Refresh Glasgow<span>}</span></h1>
+		  		<h1 class="summary"><span>{</span>Refresh Glasgow<span>}</span></h1>
   		</div>
   	</header>
 
 	<section class="info-what">
 		<div class="container">
 			<div class="what-is-refresh">
-				<h2>Refresh Glasgow is a meetup of designers, developers and people who work on the web.</h2>
+				<h2 class="description">Refresh Glasgow is a meetup of designers, developers and people who work on the web.</h2>
 					<p>We meet monthly for a few drinks, some food <span class="alt">&amp;</span> some chat. <em>It's better than it sounds.</em></p>
 			</div>
 		</div>
@@ -43,11 +43,20 @@
 
 				<div class="where-when">
 					<h3>Where?</h3>
-	        <p>The next Refresh Glasgow will take place in <a href="http://www.thearches.co.uk/cafe-bar-restaurant">The Arches Cafe Bar, Argyle Street, Glasgow.</a> Just beside the back door of Central Station.</p>
+	        <p>
+	        	The next <a href="http://refreshglasgow.org/" class="url">Refresh Glasgow</a> will take place in <a href="http://www.thearches.co.uk/cafe-bar-restaurant" class="location">The Arches Cafe Bar, Argyle Street, Glasgow.</a> Just beside the back door of Central Station.
+						<span class="geo">
+							<span class="latitude">
+								<span class="value-title" title="55.858352" ></span>
+							</span>
+							<span class="longitude">
+								<span class="value-title" title="-4.258715"></span>
+							</span>
+						</span>
+	      	</p>
 
 	        <h3>When?</h3>
-					<p>Refresh Glasgow takes place on the <strong>third Wednesday</strong> of the month. The next pub meet is on <strong>20th March</strong> at <strong>1830</strong> usually there will be folks arriving from nearer 1800 though.</p>
-
+					<p>Refresh Glasgow takes place on the <strong>third Wednesday</strong> of the month. The next pub meet is on <time datetime="2013-04-17T18:30Z" class="dtstart"><strong title="2013-04-17T18:30Z" class="value-title">Wednesday 17th April</strong> at <strong>1830</strong></time> usually there will be folks arriving from nearer 1800 though.</p>
 				</div>
 
 				<div class="map last">
@@ -71,7 +80,7 @@
 	        <p>The inaugural <span class="summary">Refresh Glasgow talks</span> took place in <a href="http://www.sloansglasgow.com/" class="location">Sloans, Argyle Street, Glasgow.</a></p>
 
 	        <h3>When?</h3>
-					<p>The talks took place on <time datetime="2013-02-20T19:00Z" class="dtstart"><strong>Wednesday 20th February</strong></time>.</p>
+					<p>The talks took place on <time datetime="2013-02-20T19:00Z" class="dtstart"><strong title="2013-02-20T19:00Z" class="value-title">Wednesday 20th February</strong></time>.</p>
 				</div>
 
 				<div class="speakers description">
@@ -87,7 +96,7 @@
 
 	        <p>Talks are announced on twitter and via an email list - if you wish to know about future events, <a href="http://twitter.com/refreshgla">follow us on twitter @refreshgla</a> or sign up to the email list below.</p>
 
-	 
+
 
 					<div class="email-form">
 						<form action="http://refreshglasgow.createsend.com/t/y/s/tddty/" method="post" id="subForm">
