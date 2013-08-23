@@ -1,3 +1,4 @@
+// @codekit-prepend "vendor/moment.min.js"
 // analytics
 var _gaq=[['_setAccount','UA-3746173-1'],['_trackPageview']];
 (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
@@ -6,8 +7,8 @@ s.parentNode.insertBefore(g,s)}(document,'script'));
 
 processDatesFromTimestamp = function(startTime) {
 	console.log(startTime);
-	var refreshDate = new Date(startTime * 1000);
-	console.log(refreshDate);
+	var refreshDate = moment.unix(startTime);
+	console.log(refreshDate.format("dddd, MMMM Do [at] HHmm"));
 };
 
 jQuery(document).ready(function($) {
