@@ -22,9 +22,7 @@ s.parentNode.insertBefore(g,s)}(document,'script'));;
       url: 'https://opentechcalendar.co.uk/index.php/group/14/jsonp',
       dataType: 'jsonp',
       success: function(opentechData) {
-        var events;
-        events = opentechData.data;
-        return processEvent(events[0]);
+        return processEvent(opentechData.data[0]);
       }
     });
   });

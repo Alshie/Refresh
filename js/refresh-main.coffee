@@ -19,6 +19,6 @@ jQuery(document).ready ($) ->
 		url: 'https://opentechcalendar.co.uk/index.php/group/14/jsonp',
 		dataType: 'jsonp',
 		success: (opentechData) ->
-			events = opentechData.data
-			processEvent events[0]
+			# events = opentechData.data
+			processEvent opentechData.data[0]
 	}
