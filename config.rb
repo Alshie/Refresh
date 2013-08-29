@@ -3,11 +3,11 @@ require '/Library/Ruby/Gems/1.8/gems/susy-1.0.1/lib/susy.rb';
 
 # Set this to the root of your project when deployed:
 http_path = "/"
-css_dir = "stylesheets"
+css_dir = "assets/stylesheets"
 sass_dir = "sass"
-images_dir = "img"
-javascripts_dir = "javascripts"
-fonts_dir = "fonts"
+images_dir = "assets/img"
+javascripts_dir = "assets/javascripts"
+fonts_dir = "assets/fonts"
 
 output_style = :compact
 
